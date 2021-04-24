@@ -1,0 +1,57 @@
+Git is a version control system.
+Records changes to files.
+Gives ability to revert back to a previous file version.
+Compare changes made to a file.
+
+File Stages
+    Comitted
+        Files currently stored inside a snapshot.
+
+    Modified
+        Files changed after the last snapshot.
+    
+    Staged
+        Files marked to get stored with the next commit.
+
+Git Project Structure
+    Working Directory
+        Files came from a repository.
+        Sends files to staging area.
+
+    Staging Area (Index)
+        Staged modifications to files for the next commit.
+        Sends files to the repository.
+    
+    Repository
+        Git's database and metadata.
+        Holds committed files.
+
+Git Configuration
+    git --version
+    git config --global user.name "Tork Angegh"
+    git config --global user.email "hello@example.com"
+    git config --list
+    git config user.name
+
+Git Commands
+    git init
+        Creates a new git repository inside the current directory.
+        Crates a .git directory.
+        .git directory many files to make version control work.
+    
+    git add filename
+        Adds the file to the staged area.
+    
+    git commit -m "message"
+        Creates a commit with the message.
+        This creates a snapshot of project.
+    
+    git remote add origin url
+        Creates a link between the local and the remote repository.
+        A GitHub repo is an example.
+    
+    git push -u origin master
+        Pushes the local commits to the remote repository.
+        This will require github username and password.
+    
+    
