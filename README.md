@@ -1,1 +1,1 @@
-This repository contains my programming notes.
+This repository contains my notes.

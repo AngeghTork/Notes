@@ -1,0 +1,130 @@
+Русский Алфавить
+    10 Vowels
+    21 Consonants
+    2 Special Signs
+
+    А   а
+    Б	б
+    В	в
+    Г	г
+    Д	д
+    Е	е
+    Ё	ё
+    Ж	ж
+    З	з
+    И	и
+    Й	й
+    К	к
+    Л	л
+    М	м
+    Н	н
+    О	о
+    П	п
+    Р	р
+    С	с
+    Т	т
+    У	у
+    Ф	ф
+    Х	х
+    Ц	ц
+    Ч	ч
+    Ш	ш
+    Щ	щ
+    Ъ	ъ
+    Ы	ы
+    Ь	ь
+    Э	э
+    Ю	ю
+    Я	я
+
+Словарь
+    А
+        автобус     autobus
+    Б
+        бабушка     grandmother
+        борщ        borsch
+        бутерброд   sandwich
+    В
+        вода	    water
+        вторник     Tuesday
+    Г
+        год         year
+        город       city
+    Д
+        да	        yes
+        девочка     girl
+    Е
+        если	    if
+        ел          spruce
+    Ё
+        ёж          hedgehog
+    Ж
+        жук         beetle
+    З
+        звезда
+        зонт        umbrella	
+    И
+        игра        game
+    Й
+        йога        yoga
+    К
+        книга       book
+        кто         who
+    Л
+        лимон       lemon
+        ложка
+    М
+        мой	        my
+        метро	    metro
+        мост	    bridge
+    Н
+        небо        sky
+        нет	        no
+    О
+        объект      object
+        озеро	    lake
+        отьезд
+    П
+        письмо
+        пока        bye
+    Р
+        река        river
+        Россия      Russia
+        рыба        fish
+
+    С
+        смотреть    look
+        собака      dog
+        соль
+        сообщение   message
+        стол
+        сыр         cheese
+    Т
+        театр       theatre
+        телефон     telephone
+    У
+        уже
+        ухо         ear
+    Ф
+        фрукты      fruits
+        футбол      soccer
+    Х
+        хвост       tail
+        хомяк
+    Ц
+        цветок      flower
+    Ч	
+        человек	    person
+        Четверг     Thursday
+    Ш
+        шест
+        шея         neck
+	Э
+        экономия    economy
+        это         this
+    Ю
+        юг          south
+    Я
+        я           I
+        яблоко      apple
+
