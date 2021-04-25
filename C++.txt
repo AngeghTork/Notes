@@ -1,2 +1,21 @@
 Compiler    : Source File -> Object File
 Linker      : Object File -> Executable
+
+C++ code blocks are created with curly braces { } .
+C++ statements end with a semicolon ;
+
+Starting Point Of An Application
+    Applications start from the main method.
+    The return type of main method is int.
+    The return value indicates a success or errors.
+    Example
+    int main() {
+        return 0;
+    }
+
+Errors
+    There are three types of errors.
+    Compile-Time Errors
+    Link-Time Errors
+    Run-Time Errors
+
