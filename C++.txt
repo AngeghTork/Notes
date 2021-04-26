@@ -19,3 +19,55 @@ Errors
     Link-Time Errors
     Run-Time Errors
 
+Operators
+    <<  Sends something to a stream.
+        This operator is chainable.
+    >>  Reads something from a stream.
+    ::  Scope resolution operator.
+
+Iclude
+#include <library name>
+
+Namespaces
+    using namespace std;    // BAD PRACTICE!
+    using std::cout;        // GOOD PRACTICE!
+
+Stream IO
+    std::cout
+    std::cin
+
+Comments
+    // This is a single line comment.
+    /* ...*/ This is a multi line comment.
+
+Types
+    Variables have types.
+    Expressions also have types.
+    Built-in types are not automatically initialized.
+
+Conditional Operators
+    ==
+    !=
+    <
+    <=
+    >
+    >=
+
+If Statement
+    if (conditional expression) {
+        // Statements...
+    }
+    else {
+        // Statements...
+    }
+
+While Loop
+    while (conditional expression) {
+        // Statements...
+        // Change conditional variables...
+    }
+
+For Loop
+    for (int i = 0; i < something; i++) {
+
+    }
