@@ -1,4 +1,4 @@
-Compiler    : Source File -> Object File
+Compiler    : Source Files -> Object Files
 Linker      : Object File -> Executable
 
 C++ code blocks are created with curly braces { } .
@@ -25,8 +25,9 @@ Operators
     >>  Reads something from a stream.
     ::  Scope resolution operator.
 
-Iclude
-#include <library name>
+Preprocessor Directives
+    #include <library name>
+    #include "user_header.h"
 
 Namespaces
     using namespace std;    // BAD PRACTICE!
@@ -44,6 +45,7 @@ Types
     Variables have types.
     Expressions also have types.
     Built-in types are not automatically initialized.
+    An arithmetic operation with a float/double and int will result a float/double.
 
 Conditional Operators
     ==
@@ -71,3 +73,26 @@ For Loop
     for (int i = 0; i < something; i++) {
 
     }
+
+Declaring A Function
+    int add(int a, int b);
+
+Defining A Function
+    int add(int a, int b) {
+        return a + b;
+    }
+
+Overloading A Function
+    We can have two functions with the same name.
+    Their signiture must be different.
+    Argument count and / or types must be different.
+    Example
+    int add(int a, int b);
+    double add(double a, double b);
+    When the function call gives two acceptable choices, 
+    The compiler will throw an error because of the ambiguity.
+
+Header Files
+    We put the declarations into header files.
+    And we include header files when we need to use functions.
+    Header files are not compiled.
